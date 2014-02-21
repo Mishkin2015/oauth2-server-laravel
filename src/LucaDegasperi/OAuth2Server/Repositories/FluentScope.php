@@ -35,7 +35,7 @@ class FluentScope implements ScopeInterface
      */
     public function getScope($scope, $clientId = null, $grantType = null)
     {
-         $query = DB::table('oauth_scopes')
+         $query = DB::connection('mysql')->table('oauth_scopes')
                     ->select('oauth_scopes.id as id', 'oauth_scopes.scope as scope', 'oauth_scopes.name as name', 'oauth_scopes.description as description')
                     ->where('oauth_scopes.scope', $scope);
 

@@ -1,11 +1,12 @@
 {
-    "name": "lucadegasperi/oauth2-server-laravel",
-    "description": "A Laravel 4 wrapper for the popular OAuth 2.0 Server package league/oauth2-server",
+    "name": "learninglocker/oauth2-server-laravel",
+    "description": "A Laravel 4 wrapper for the popular OAuth 2.0 Server package league/oauth2-server specific to Learning Locker",
     "keywords": [
         "laravel",
         "oauth2",
         "oauth",
         "server",
+        "learninglocker",
         "api"
     ],
     "authors": [
@@ -34,6 +35,6 @@
             "LucaDegasperi\\OAuth2Server": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "license": "MIT"
 }
